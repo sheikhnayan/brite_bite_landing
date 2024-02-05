@@ -1,8 +1,6 @@
-
 @extends('front.layouts.main')
 
 @section('content')
-
 
 <!--================================
 =            Page Title            =
@@ -13,9 +11,9 @@
 		<div class="row">
 			<div class="col-sm-8 m-auto">
 				<!-- Page Title -->
-				<h1>About Small Apps</h1>
+				<h1>About Us</h1>
 				<!-- Page Description -->
-				<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+				{{-- <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p> --}}
 			</div>
 		</div>
 	</div>
@@ -24,323 +22,62 @@
 <!--====  End of Page Title  ====-->
 
 
-<!--===============================
-=            Our Story            =
-================================-->
-<section class="section about p-0">
+<!--====================================
+=            Privacy Policy            =
+=====================================-->
+<section class="privacy section pt-0">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 align-self-center">
-				<div class="content text-center text-lg-left">
-					<!-- Headline -->
-					<h2>This is our story.</h2>
-					<!-- Story -->
-					<p>We’re here for those who refuse to settle. Who never stop moving forwards. Who continue to search for new ideas and better experiences in everything they do.
-					Because today’s hyper-connected world deserves a financial partner just as progressive.One that adapts to your needs, gives you control and constantly pushes you into new exciting spaces.</p>
-				</div>
-			</div>
-			<div class="col-lg-6 mt-4 mt-lg-0">
-				<!-- Story Image Slider -->
-				<div class="about-slider">
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Our Story  ====-->
-
-<!--================================
-=            Behind Story          =
-=================================-->
-<section class="section">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title mb-0">
-					<h2>Why we created <a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a></h2>
-					<p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Proin eget tortor risus. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Behind Story  ====-->
-
-<!--==================================
-=            Create Story            =
-===================================-->
-<section class="section create-stories pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
+			{{-- <div class="col-lg-3">
+				<nav class="privacy-nav">
+					<ul>
+						<li><a class="nav-link scrollTo" href="#userLicense" class="scrollTo">User License</a></li>
+						<li><a class="nav-link scrollTo" href="#disclaimer" class="scrollTo">Disclaimer</a></li>
+						<li><a class="nav-link scrollTo" href="#limitations" class="scrollTo">Limitations</a></li>
+						<li><a class="nav-link scrollTo" href="#governigLaw" class="scrollTo">Governing Law</a></li>
+					</ul>
+				</nav>
+			</div> --}}
+			<div class="col-lg-12">
 				<div class="block">
-					<!-- Image -->
-					<img class="img-fluid" src="images/blog/post-01.jpg" alt="Story-Image">
-					<!-- Heading -->
-					<h3>Our Story</h3>
-					<!-- Story -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				</div>
-			</div>
-			<div class="col-lg-6 mt-5 mt-lg-0">
-				<div class="block">
-					<!-- Image -->
-					<img class="img-fluid" src="images/blog/post-03.jpg" alt="Story-Image">
-					<!-- Heading -->
-					<h3>What we do</h3>
-					<!-- Story -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Create Story  ====-->
+					<!-- User License -->
+					<div id="userLicense" class="policy-item">
+						<div class="title">
+							<h3>About Us</h3>
+						</div>
+						<div class="policy-details">
+							<p>
+                                Welcome to BritBite.com – your premier destination for hassle-free website creation and hosting solutions. At BritBite.com, we are dedicated to empowering individuals and businesses of all sizes to establish and enhance their online presence with ease.
 
+Our mission is simple: to provide a comprehensive platform that simplifies the website creation process, eliminates technical complexities, and saves you time and money. Whether you're a budding entrepreneur, a small business owner, or a seasoned professional, we've got you covered.
 
-<!--=====================================
-=            Quotes Slider              =
-======================================-->
-<section class="section quotes pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-10 m-auto text-center">
-				<div class="quote-slider">
-					<div class="item mb-4">
-						<!-- Quote -->
-						<h2>Behind every great product, there is a great mind.</h2>
-						<!-- Company -->
-						<cite class="ml-0">-TechCrunch</cite>
-					</div>
-					<div class="item mb-4">
-						<!-- Quote -->
-						<h2>Behind every great product, there is a great mind.</h2>
-						<!-- Company -->
-						<cite class="ml-0">-TechCrunch</cite>
+With BritBite.com, you can say goodbye to the hassles of server purchases, complex coding, and tedious website maintenance. Our user-friendly interface and intuitive tools make it effortless to design, customize, and launch your dream website in no time.
+
+What sets us apart is our unwavering commitment to customer satisfaction and excellence. We strive to deliver unparalleled service, reliable performance, and innovative solutions that exceed your expectations.
+
+At BritBite.com, we believe in the power of creativity, innovation, and collaboration. Our team of dedicated professionals is here to support you every step of the way, providing personalized assistance, technical expertise, and ongoing guidance to help you achieve your goals.
+
+Join us on the journey to digital success. Experience the convenience, reliability, and affordability of BritBite.com today. Let's build something extraordinary together.
+
+Thank you for choosing BritBite.com – where your digital dreams become a reality.
+
+                                Third-Party Links:
+                                Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites. We encourage you to review the privacy policies of third-party sites before providing any personal information.
+
+                                Children's Privacy:
+                                Our services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children. If you believe that we have unintentionally collected information from a child, please contact us immediately.
+
+                                Changes to Privacy Policy:
+                                We reserve the right to update or modify this Privacy Policy at any time. We will notify you of any changes by posting the revised policy on our website.
+
+                                By using BritBite.com, you consent to the terms of this Privacy Policy. If you have any questions or concerns about our privacy practices, please contact us at [contact email]. Thank you for choosing BritBite.com.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!--====  End of Quotes Slider  ====-->
-
-<!--=====================================
-=            Client Slider              =
-======================================-->
-<section class="section clients bg-gray">
-	<div class="container">
-		<div class="row">
-			<div class="col-10 m-auto text-center">
-				<h3>Featured In</h3>
-				<div class="client-slider">
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/business-finder.png" alt="business-finder">
-					</div>
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/forbes.png" alt="forbes">
-					</div>
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/venture-beat.png" alt="venture-beat">
-					</div>
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/tech-crunch-new.png" alt="TechCrunch">
-					</div>
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/forbes.png" alt="forbes">
-					</div>
-					<div class="item mb-4">
-						<img class="m-auto" src="images/clients/venture-beat.png" alt="venture-beat">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Client Slider  ====-->
-
-<!--==============================
-=            Investors           =
-===============================-->
-<section class="section investors">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h2>Our Angel Investors</h2>
-					<p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia
-					eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. </p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/marketing-team-01.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/marketing-team-02.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/marketing-team-03.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/design-team-01.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/design-team-02.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/design-team-03.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/design-team-01.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-sm-6">
-				<div class="block text-center">
-					<!-- Investor Image -->
-					<div class="image shadow hover-zoom">
-						<img class="img-fluid" src="images/team/marketing-team-02.jpg" alt="investor">
-					</div>
-					<!-- Company -->
-					<h3>Spider Web</h3>
-					<!--  -->
-					<p>Investor</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--===============================
-=            Our Story            =
-================================-->
-<section class="section about pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 align-self-center">
-				<div class="content text-center text-lg-left">
-					<!-- Headline -->
-					<h2>This is our story.</h2>
-					<!-- Story -->
-					<p>We’re here for those who refuse to settle. Who never stop moving forwards. Who continue to search for new ideas and better experiences in everything they do.
-					Because today’s hyper-connected world deserves a financial partner just as progressive.One that adapts to your needs, gives you control and constantly pushes you into new exciting spaces.</p>
-				</div>
-			</div>
-			<div class="col-lg-6 mt-5 mt-lg-0">
-				<!-- Story Image Slider -->
-				<div class="about-slider">
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-					<!-- Story Image -->
-					<div class="item">
-						<img class="w-100" src="images/about/story-slider-01.jpg" alt="slider-image">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Our Story  ====-->
-
-<!--=====================================
-=            Section comment            =
-======================================-->
-
-<section class="section cta-hire bg-gary">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<!-- Hire Title -->
-				<h2>We are hunting Genius Developers</h2>
-				<!-- Job Description -->
-				<p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque
-					in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-				<!-- Action Button -->
-				<a href="contact.html" class="mt-3 btn btn-main-md">Join the team</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of Section comment  ====-->
-
+<!--====  End of Privacy Policy  ====-->
 @endsection
+

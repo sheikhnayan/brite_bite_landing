@@ -27,8 +27,8 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4">Your Digital PlayGround </h1>
-				<p class="text-white mb-5">Play Anytime Anywhere. Connecting Gamers Worldwide</p>
+				<h1 class="text-white font-weight-bold mb-4">Create Your Digital Restaurent Website</h1>
+				<p class="text-white mb-5">Make your Restaurent visible globally!</p>
 				<a href="https://app.britbite.com/register" class="btn btn-main-md">Get Started</a>
 			</div>
 			<div class="col-md-6 text-center order-1 order-md-2">
@@ -45,19 +45,19 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
 					<i class="ti-paint-bucket h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">100+ Events</h3>
-					<p class="regular text-muted">From 2019 we hosted more than 100 events from different games like PUBG, Mobile Legends Bang Bang, Clash of Clans, Clash Royale, FIFA, PES, Arena of Valor etc</p>
+					<h3 class="mt-4 text-capitalize h5 ">100+ Restaurents</h3>
+					{{-- <p class="regular text-muted">From 2019 we hosted more than 100 events from different games like PUBG, Mobile Legends Bang Bang, Clash of Clans, Clash Royale, FIFA, PES, Arena of Valor etc</p> --}}
 				</div>
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
 					<i class="ti-shine h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">50K+ Gamers Played</h3>
-					<p class="regular text-muted">Total 50k+ gamers participated in our events hosted or organized by BritBite since 2024</p>
+					<h3 class="mt-4 text-capitalize h5 ">50K+ Reservasions</h3>
+					{{-- <p class="regular text-muted">Total 50k+ gamers participated in our events hosted or organized by BritBite since 2024</p> --}}
 				</div>
 				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
 					<i class="ti-thought h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">60k+ Community Members </h3>
-					<p class="regular text-muted">20K+ members are connected with us in different social media like Facebook, Twitter, YouTube, Instagram, LinkedIn etc and we have also 40k+ members of face group in different games</p>
-					</p>
+					<h3 class="mt-4 text-capitalize h5 ">60k+ Inquiries </h3>
+					{{-- <p class="regular text-muted">20K+ members are connected with us in different social media like Facebook, Twitter, YouTube, Instagram, LinkedIn etc and we have also 40k+ members of face group in different games</p>
+					</p> --}}
 				</div>
 			</div>
 		</div>
@@ -79,23 +79,20 @@
 			<div class="col-lg-6 mr-auto align-self-center">
 				<div class="feature-content">
 					<!-- Feature Title -->
-					<h2 class="">Promoting Youth Wellness & Wellbeing Through Healthy Entertainment</h2>
+					<h2 class="">Welcome to BritBite.com</h2>
 					<!-- Feature Description -->
-					<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.</p>
+					<p class="desc">We take care of everything for you – from website setup to hosting, eliminating the need for server purchases. Save time and money while effortlessly building your online presence. Join us today and experience hassle-free website creation.</p>
 				</div>
 				<!-- Testimonial Quote -->
 				<div class="testimonial">
 					<p class="">
-						"InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one
-						place."
+						"Be the change that you wish to see in the world."
 					</p>
 					<ul class="list-inline meta">
-						<li class="list-inline-item">
+						{{-- <li class="list-inline-item">
 							<img src="{{ asset('front/images/testimonial/feature-testimonial-thumb.jpg') }}" alt="">
-						</li>
-						<li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
+						</li> --}}
+						<li class="list-inline-item">- Mahatma Gandhi</li>
 					</ul>
 				</div>
 			</div>
@@ -110,14 +107,12 @@
 				<div class="feature-content">
 					<!-- Feature Title -->
 					<h2 class="">
-                        Working on Esports Employment and Gaming Awareness on Digital PlayGround </h2>
+                        Digitalize Your Restaurent </h2>
 					<!-- Feature Description -->
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat.</p>
+					<p>We design custom restaurant websites for profit maximization. Our user-friendly, mobile-optimized designs feature SEO integration and online ordering. Elevate your online presence with BritBite.com - contact us today!</p>
 				</div>
 				<!-- Testimonial Quote -->
-				<div class="testimonial">
+				{{-- <div class="testimonial">
 					<p class="">
 						"InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one
 						place."
@@ -128,7 +123,7 @@
 						</li>
 						<li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
 					</ul>
-				</div>
+				</div> --}}
 			</div>
 			<div class="col-lg-6 mr-auto justify-content-center">
 				<!-- Feature mockup -->
@@ -169,9 +164,9 @@
 								<!-- Icon -->
 								<i class="ti-bookmark "></i>
 								<!-- Heading -->
-								<h3 class="">Hosting Events</h3>
+								<h3 class="">Website Creation</h3>
 								<!-- Description -->
-								<p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p class="">Build your dream website effortlessly with our user-friendly website builder. Choose from a variety of customizable templates, drag-and-drop elements, and intuitive tools to create a stunning and professional-looking website that reflects your brand identity.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -180,9 +175,9 @@
 								<!-- Icon -->
 								<i class="ti-pulse "></i>
 								<!-- Heading -->
-								<h3 class="">Community Management & Customer Support</h3>
+								<h3 class="">Domain Registration</h3>
 								<!-- Description -->
-								<p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p class="">Find the perfect domain name for your website with our domain registration services. Choose from a wide range of domain extensions and secure your online identity with ease. Our seamless integration makes it simple to connect your domain to your website, ensuring a seamless user experience for your visitors.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -191,9 +186,9 @@
 								<!-- Icon -->
 								<i class="ti-bar-chart "></i>
 								<!-- Heading -->
-								<h3 class="">Crowd Localization</h3>
+								<h3 class="">E-commerce Integration</h3>
 								<!-- Description -->
-								<p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p class="">Take your online business to new heights with our e-commerce integration solutions. Whether you're selling products, services, or digital downloads, our platform provides all the tools you need to set up an online store, manage inventory, process payments, and track orders effortlessly.</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -202,9 +197,9 @@
 								<!-- Icon -->
 								<i class="ti-panel "></i>
 								<!-- Heading -->
-								<h3 class="">Game Testing</h3>
+								<h3 class="">Support and Assistance</h3>
 								<!-- Description -->
-								<p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p class="">Count on our dedicated support team to assist you every step of the way. From technical troubleshooting to strategic advice, we're here to help you maximize the potential of your website and achieve your business objectives.</p>
 							</div>
 						</div>
 					</div>
@@ -219,7 +214,7 @@
 <!--=================================
 =            Video Promo            =
 ==================================-->
-<section class="video-promo section bg-1">
+{{-- <section class="video-promo section bg-1">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -237,13 +232,13 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> --}}
 <!--====  End of Video Promo  ====-->
 
 <!--================================
              Our Team
 ==================================-->
-<section class="section testimonial" id="testimonial">
+{{-- <section class="section testimonial" id="testimonial">
 	<div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -321,14 +316,14 @@
             </div>
         </div>
 	</div>
-</section>
+</section> --}}
 
 <!--====  End of Our Team  ====-->
 
 <!--=================================
 =            Testimonial            =
 ==================================-->
-<section class="section testimonial" id="testimonial">
+{{-- <section class="section testimonial" id="testimonial">
 	<div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -417,7 +412,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> --}}
 <!--====  End of Testimonial  ====-->
 
 {{-- <section class="call-to-action-app section bg-blue">

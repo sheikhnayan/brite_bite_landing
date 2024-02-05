@@ -36,3 +36,7 @@ Route::get('/team', function () {
 Route::get('/privacy', function () {
     return view('front.privacy');
 });
+
+Route::get('/terms', function () {
+    return view('front.terms');
+});

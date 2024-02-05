@@ -94,18 +94,6 @@
           <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
             <div class="block-2">
               <!-- heading -->
-              <h6>Product</h6>
-              <!-- links -->
-              <ul>
-                <li><a href="/team">Teams</a></li>
-                {{-- <li><a href="blog.html">Blogs</a></li> --}}
-                <li><a href="/faq">FAQs</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-            <div class="block-2">
-              <!-- heading -->
               <h6>Resources</h6>
               <!-- links -->
               <ul>
@@ -121,23 +109,25 @@
               <h6>Company</h6>
               <!-- links -->
               <ul>
-                {{-- <li><a href="career.html">Career</a></li> --}}
+                <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
-                {{-- <li><a href="team.html">Investor</a></li> --}}
-                <li><a href="/terms">Terms</a></li>
+                {{-- <li><a href="/team">Team</a></li> --}}
+                <li><a href="/terms">Terms and Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="col-lg-4 col-md-3 col-6 mt-5 mt-lg-0">
             <div class="block-2">
               <!-- heading -->
-              <h6>Company</h6>
+              <h6>Get In Touch</h6>
               <!-- links -->
               <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Team</a></li>
-                <li><a href="/privacy">Privacy Policy</a></li>
+                {{-- <li><a href="career.html">Career</a></li> --}}
+                <li>Address: BritBite Limited, Lock Studio, 7 Corsicen sq, E3 3YD</li>
+                <li>Email: Support@BritBite.com</li>
+                <li>Phone: 02080576330</li>
+                {{-- <li><a href="team.html">Investor</a></li> --}}
               </ul>
             </div>
           </div>
